@@ -1,4 +1,4 @@
-FROM authentik/server:2026.2.6
+FROM authentik/server:2026.5.6
 
 ARG POSTGRESQL_ADDON_HOST
 ARG POSTGRESQL_ADDON_DB
