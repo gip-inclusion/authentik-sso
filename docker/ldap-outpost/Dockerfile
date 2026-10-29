@@ -1,0 +1,6 @@
+FROM ghcr.io/goauthentik/ldap:2026.8.5
+
+ENV AUTHENTIK_HOST=https://connect.inclusion.gouv.fr
+ENV AUTHENTIK_INSECURE="false"
+ENV AUTHENTIK_LISTEN__LDAPS=0.0.0.0:4040
+ENV AUTHENTIK_LISTEN__METRICS=0.0.0.0:8080

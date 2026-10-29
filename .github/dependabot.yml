@@ -5,6 +5,7 @@ updates:
     directories:
       - "/docker/server"
       - "/docker/worker"
+      - "/docker/ldap-outpost"
     schedule:
       interval: "daily"
     cooldown:
